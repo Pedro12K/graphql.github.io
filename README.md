@@ -1,25 +1,30 @@
-# Contributing
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Organization gh-pages deploy the `master` branch, so active development occurs
-on this `source` branch.
+## Getting Started
 
-The site is written in JS and Markdown files in `site/`.
+First, run the development server:
 
-The site chrome are all in JS files in `site/_core/`.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-### Making changes
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The first time, get all the dependencies loaded via
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-`$ npm install` or `$ yarn install`
+## Learn More
 
-Then, run the server via
+To learn more about Next.js, take a look at the following resources:
 
-`$ npm start` or `$ yarn start`
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Open [http://localhost:8444](http://localhost:8444) to view it in the browser.
-Anytime you make some changes, refresh the page to see the updates.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-### Publish the Website
+## Deploy on Vercel
 
-Once pushed to the `source` branch, Travis CI will publish http://graphql.org
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
